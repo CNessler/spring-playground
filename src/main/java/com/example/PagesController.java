@@ -6,9 +6,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RestController
 public class PagesController {
 	
-	@GetMapping("/hello")
+	@GetMapping("/math/pi")
 	public String helloWorld() {
-		return "HELLO WORLD";
+
+		return "3.14159";
 	}
 	
 }
